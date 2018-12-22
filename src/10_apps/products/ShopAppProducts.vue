@@ -1,25 +1,17 @@
 <template>
   <ShopTemplateProducts>
     <template slot="products">
-      <ShopOrganismProducts :headline="headline">
-        <ShopMoleculeProduct
-          v-for="product in products"
-          :key="product.href"
-          v-bind="product"
-        />
-      </ShopOrganismProducts>
+      <ShopOrganismProducts :headline="headline" :products="products" />
     </template>
   </ShopTemplateProducts>
 </template>
 
 <script>
-import ShopMoleculeProduct from "../../00_components/molecules/product/ShopMoleculeProduct.vue";
 import ShopOrganismProducts from "../../00_components/organisms/products/ShopOrganismProducts.vue";
 import ShopTemplateProducts from "../../00_components/templates/products/ShopTemplateProducts.vue";
 
 export default {
   components: {
-    ShopMoleculeProduct,
     ShopOrganismProducts,
     ShopTemplateProducts
   },

@@ -46,6 +46,11 @@ export default {
 </script>
 
 <style>
+.m-product {
+  width: 100%;
+  max-width: 300px;
+}
+
 .m-product__img-wrapper {
   position: relative;
   height: 0;
