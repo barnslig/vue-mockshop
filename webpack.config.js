@@ -4,7 +4,7 @@ const VueLoaderPlugin = require("vue-loader/lib/plugin");
 const { join } = require("path");
 
 module.exports = {
-  entry: glob.sync(join(__dirname, "src/10_apps/*/app.js")),
+  entry: glob.sync(join(__dirname, "src/10_apps/*/index.js")),
 
   plugins: [new VueLoaderPlugin()],
 

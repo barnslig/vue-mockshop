@@ -1,0 +1,20 @@
+{
+  "headline": {
+    "text": "Fruchtsäfte"
+  },
+  "products": [
+    {
+      "href": "",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "headline": {
+        "text": "Orangensaft"
+      },
+      "copy": {
+        "text": "Lecker und gesund!"
+      }
+    }
+  ]
+}

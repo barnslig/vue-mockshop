@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 -s src/90_dummy",
+    "build-storybook": "build-storybook -s src/90_dummy"
   },
   "lint-staged": {
     "*.{js,jsx,vue}": [
@@ -54,7 +54,9 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "lazysizes": "^4.1.5",
-    "vue": "^2.5.21"
+    "vue": "^2.5.21",
+    "vuex": "^3.0.1"
   }
 }

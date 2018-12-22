@@ -5,7 +5,7 @@
         <ShopAtomImage class="m-product__img" itemprop="image" v-bind="image" />
       </div>
       <div class="m-product__meta-wrapper">
-        <ShopAtomHeadline v-bind="headline" itemprop="name" />
+        <ShopAtomHeadline v-bind="headline" tag="h2" itemprop="name" />
         <ShopAtomCopy v-bind="copy" itemprop="description" />
       </div>
     </a>

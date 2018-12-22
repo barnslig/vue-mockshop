@@ -1,15 +1,20 @@
 import Vue from "vue";
-import ShopAppProducts from "./ShopAppProducts.vue";
 
-// eslint-disable-next-line no-new
-new Vue({
-  el: "[data-app]",
+import ShopAppProducts from "./components/ShopAppProducts.vue";
+import store from "./store";
 
-  components: {
-    ShopAppProducts
-  },
+const init = el =>
+  new Vue({
+    el,
+    store,
 
-  render(h) {
-    return h(ShopAppProducts);
-  }
-});
+    components: {
+      ShopAppProducts
+    },
+
+    render(h) {
+      return h(ShopAppProducts);
+    }
+  });
+
+export default init;
