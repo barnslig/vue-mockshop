@@ -4,7 +4,7 @@
   },
   "products": [
     {
-      "href": "",
+      "href": "orangensaft",
       "image": {
         "src": "",
         "alt": ""
@@ -14,6 +14,58 @@
       },
       "copy": {
         "text": "Lecker und gesund!"
+      }
+    },
+    {
+      "href": "apfelsaft",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "headline": {
+        "text": "Apfelsaft"
+      },
+      "copy": {
+        "text": "Frisch aus dem alten Land!"
+      }
+    },
+    {
+      "href": "rhababersaft",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "headline": {
+        "text": "Rhababersaft"
+      },
+      "copy": {
+        "text": "Schmeckt nach Sommer!"
+      }
+    },
+    {
+      "href": "bananennektar",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "headline": {
+        "text": "Bananennektar"
+      },
+      "copy": {
+        "text": "Frisch aus dem Urwald!"
+      }
+    },
+    {
+      "href": "multivitaminsaft",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "headline": {
+        "text": "Multivitaminsaft"
+      },
+      "copy": {
+        "text": "Top gesund, hilft gegen jede Grippe!"
       }
     }
   ]

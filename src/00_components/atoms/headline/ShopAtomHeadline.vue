@@ -21,5 +21,6 @@ export default {
 .a-headline {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin: 20px 0;
 }
 </style>
