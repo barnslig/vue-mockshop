@@ -10,4 +10,4 @@ A component consists of multiple files:
 
 Vue components are named based on the pattern `Shop[Atom|Molecule|Organism|Template][Name]`.
 
-Stories are named based on the pattern `Styleguide/[Atom|Molecule|Organism|Template]/[Name]`.
+Stories are named based on the pattern `Styleguide|[Atom|Molecule|Organism|Template]/[Name]`.

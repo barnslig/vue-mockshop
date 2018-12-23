@@ -11,6 +11,6 @@ A web app consists of multiple files:
 
 Vue components are named based on the pattern `ShopApp[Name][Glue Name]`.
 
-Stories are named based on the pattern `Apps/[Name]`.
+Stories are named based on the pattern `Apps|[Name]`.
 
 The separation of `index.js` and `app.js` is important to keep the main bundle as small as possible! For example, it is not necessary to load the JavaScript for the shopping cart page on the product list page.

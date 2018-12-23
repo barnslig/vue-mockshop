@@ -2,7 +2,7 @@ import { storiesOf } from "@storybook/vue";
 
 import ShopMoleculeProduct from "./ShopMoleculeProduct.vue";
 
-storiesOf("Styleguide/Molecules/Product", module)
+storiesOf("Styleguide|Molecules/Product", module)
   .addDecorator(story => ({
     render(h) {
       return h(
