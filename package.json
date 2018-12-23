@@ -1,7 +1,7 @@
 {
   "name": "vue-mockshop",
   "version": "0.1.0",
-  "description": "Totally not dayjob-related mockup of an API—based webshop to help me learning Vue.",
+  "description": "Totally not dayjob-related mockup of an API-based webshop to help me learning Vue.",
   "repository": "https://github.com/barnslig/vue-mockshop",
   "author": "Leonard Techel <git@barnslig.eu>",
   "license": "MIT",

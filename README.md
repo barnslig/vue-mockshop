@@ -1,6 +1,6 @@
 # Vue Mock-Shop
 
-Totally not dayjob-related mockup of an API—based webshop to help me learning Vue.
+Totally not dayjob-related mockup of an API-based webshop to help me learning Vue.
 
 ## Goals
 
@@ -21,3 +21,8 @@ Totally not dayjob-related mockup of an API—based webshop to help me learning 
 -   Document the learning process
 
 ## Setup
+
+Make sure to have Node and Yarn ready on your machine. Then:
+
+    yarn
+    yarn storybook
